@@ -1,5 +1,3 @@
----
-````markdown
 # Robinhood Streaming Payroll – Smart Contract System
 
 ## Overview
@@ -14,7 +12,7 @@ The implementation is divided into three progressive phases:
 
 Each phase builds upon the previous, introducing enhanced functionality and extensibility.
 
----
+
 
 ## Technology Stack
 
