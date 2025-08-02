@@ -1,0 +1,65 @@
+# === General ===
+.DS_Store
+*.log
+*.tsbuildinfo
+*.env
+*.env.local
+*.env.*.local
+
+# === Node ===
+node_modules/
+package-lock.json
+
+# === TypeScript ===
+dist/
+build/
+lib/
+*.tsbuildinfo
+
+# === Hardhat ===
+contracts/artifacts/
+contracts/cache/
+contracts/typechain/
+contracts/typechain-types/
+contracts/coverage/
+contracts/coverage.json
+contracts/coverage-final.json
+contracts/gas-report.txt
+contracts/.env
+
+# === Foundry ===
+out/
+cache/
+broadcast/
+test-cache/
+forge-cache/
+foundry.lock
+
+# === Git Submodules (optional) ===
+lib/*
+!lib/.gitkeep
+
+# If you want to ignore submodule content but keep the references:
+# lib/forge-std/*
+# lib/openzeppelin-contracts/*
+
+# === IDEs / Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS Specific ===
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Build Tools ===
+contracts/Makefile
+
+# === Git ===
+*.orig
+*.rej
