@@ -1,5 +1,6 @@
 # Robinhood Streaming Payroll – Smart Contract System
 <img src="./web3-kamp.png" style="width:100%; height:auto;">
+
 ## Overview
 
 This project implements a streaming payroll system for Robinhood's Layer-2 blockchain network. The system enables continuous, real-time salary payments to employees, replacing traditional fixed-cycle payments with a more transparent and flexible solution.
